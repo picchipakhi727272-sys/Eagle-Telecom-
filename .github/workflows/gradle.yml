@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Eagle-Telecom-debug-apk
-          path: build-project/Eagle-Telecom/app/build/outputs/apk/debug/*.apkami 
+          path: build-project/**/app/build/outputs/apk/debug/*.apk
